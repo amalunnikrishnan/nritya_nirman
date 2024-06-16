@@ -1,0 +1,1 @@
+Sam se sam Tukdas have exactly 17 beats, no more, no less. Where you can count the number of beats by seeing how many pipes (|) are present and then add 1 to it. 

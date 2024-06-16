@@ -1,0 +1,1 @@
+Tukdas have 16n+1 beats, where n is an integer. They could end with bol like ‘dha’, ‘thei’, ‘tha’ etc. but could also end on a number. You can count the number of beats by seeing how many pipes (|) are present and then add 1 to it. 
