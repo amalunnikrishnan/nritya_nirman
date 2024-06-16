@@ -1,0 +1,8 @@
+Each composition must contain 16n + 1 segments, where n is a positive integer. 
+Each compostion must have a variety of bols (words), and not the same two or three bols. 
+It is okay to also include pauses ('-') in the composition (only if needed). 
+A segment with just pauses ('-') must not contain more than one pause. 
+Tihais and Chakkardar usually ends with bols such as 'dha', 'thei', 'tha'. They consist of a set of patterns repeated three times.
+Tukdas usually end with bols such as 'dha', 'thei', 'tha', etc.
+As you can see, Sam se sam Tukdas have exactly 17 beats, no more, no less.
+If the number of segments is not 16n + 1, then ask the composer to rewrite it.
