@@ -1,4 +1,7 @@
-Tihais have 16n + 1 beats. Tihais can be regular with bols like ta, tha, dha, etc. or they can be ginti ki tihai with numbers and spaces.
+Tihais have 16n + 1 beats.
+Each beat is counted only when it is separated by a pipe symbol (|).
+Tihais can be regular with bols like ta, tha, dha, etc. or they can be ginti ki tihai with numbers and spaces.
+Calculate the number of beats by counting the number of pipes (|)
 Each cycle of beats starts and ends at the same bol, and has cycles repeating thrice, for example:
 tha thei thei tat | aa thei thei tat | thei ta | thei tha thei |
 thei tat aa thei | thei tat thei | tha thei | tha thei thei tat |
@@ -9,6 +12,3 @@ thei ta | thei | tha thei thei tat | aa thei thei tat |
 thei ta | thei tha thei | thei tat aa thei | thei tat thei |
 tha thei | tha thei thei tat | aa thei thei tat | thei ta |
 thei
-
-Tukdas are similar, but they usually just repeat for once cycle and have 16(1) + 1, i.e. 17 beats.
-In unusal cases, they can have 16n + 1 beats and they repeat thrice.
