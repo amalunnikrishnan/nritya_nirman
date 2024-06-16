@@ -1,78 +1,39 @@
 Human: Create a Tukda kathak composition.
-AI:  tat tat | thei | tig da dig dig | thei | tat tat | thei | tig da dig dig | thei | tha | thei | tat aa | thei | aa | thei | tat aa | thei | thei tha thei | s tha thei | thei thei | tat tat | tha tat | s tha dha | tat tha dha | s tat tha | dha tat | s tha dha | s tat tha dha | s tat tha | dha tat | s tha dha | s tat tha dha | s tat tha | dha
+AI:  tat tat, thei, tig da dig dig, thei, tat tat, thei, tig da dig dig, thei, tha, thei, tat aa, thei, aa, thei, tat aa, thei, thei tha thei, s tha thei, thei thei, tat tat, tha tat, s tha dha, tat tha dha, s tat tha, dha tat, s tha dha, s tat tha dha, s tat tha, dha tat, s tha dha, s tat tha dha, s tat tha, dha
 
 Human: Create a Tukda kathak composition.
-AI:  tat tat | - tig da | dig dig tig da | dig dig tat | tat - | thei thei | s kdan | tat tat | - tig da | dig dig thei | - tha | thei | tig da dig dig | thei - | tha thei | s tig da | dig dig thei | - tha | thei | tat tha | thei | s | tat tat | - tig da | dig dig tig da | dig dig tat | tat - | thei thei | s kdan | tat tat | - tig da | dig dig thei | - tha | thei | tig da dig dig | thei - | tha thei | s tig da | dig dig thei | - tha | thei | tat tha | thei | s | tat tat | - tig da | dig dig tig da | dig dig tat | tat - | thei thei | s kdan | tat tat | - tig da | dig dig thei | - tha | thei | tig da dig dig | thei - | tha thei | s tig da | dig dig thei | - tha | thei | tat tha | thei | 
+AI:  tat tat, thei, tig da dig dig, thei, tha thei, tat aa thei, aa thei, tat aa thei, thei tha thei, s tha thei, thei thei, tat tat, thei tha thei, s tha thei, thei thei, tat tat, thei tha thei, s tha thei, thei thei, tat tat, ta tat, s ta dha, tat ta dha, s tat ta, dha tat, s ta dha, s tat ta dha, s tat ta, dha tat, s ta dha, s tat ta dha, s tat ta, dha
 
 Human: Create a Tukda kathak composition.
-AI:  tat tat | thei | tig da dig dig | thei | tha thei | tat aa thei | aa thei | tat aa thei | thei tha thei | s tha thei | thei thei | tat tat | tha tat | s tha dha | tat tha dha | s tat tha | dha
+AI:  tat tat, thei, tig da dig dig, thei, tha, thei, tat aa, thei, aa thei, tat aa thei, thei tha thei, s tha thei, thei thei, tat tat, 1 -, - 2, - -, 3 -, - 4, - -, 5 -, - 6, - -, 7 -, - 8, - -, 9 -, - 10, - -, 11 -, - 12, - -, 13
 
 Human: Create a Tukda kathak composition.
-AI:  tat tat | thei | tig da dig dig | thei | tha thei | tat aa thei | aa thei | tat aa thei | thei tha thei | s tha thei | thei thei | tat tat | thei tha thei | s tha thei | thei thei | tat tat | thei tha thei | s tha thei | thei thei | tat tat | ta tat | s ta dha | tat ta dha | s tat ta | dha tat | s ta dha | s tat ta dha | s tat ta | dha tat | s ta dha | s tat ta dha | s tat ta | dha
+AI:  tha, thei, tat, thei, aa, thei, tat, thei, thei, thei tha, thei, thei tha, thei, thei, tat, tat, tha, aa, tat, tat, tha thei, thei tat, aa thei, thei tat, tig da dig dig, thei tram, thei, tig da dig dig, thei tram, thei, tig da dig dig, thei tram, thei
 
 Human: Create a Tukda kathak composition.
-AI:  tat tat | thei | tig da dig dig | thei | tha | thei | tat aa | thei | aa thei | tat aa thei | thei tha thei | s tha thei | thei thei | tat tat | 1 - | - 2 | - - | 3 - | - 4 | - - | 5 - | - 6 | - - | 7 - | - 8 | - - | 9 - | - 10 | - - | 11 - | - 12 | - - | 13
+AI:  tat, tat, thei, thei, tig da, dig dig, thei, s, tat, tat, thei, thei, tig da, dig dig, thei, s, tig da, dig dig, thei, tig da, dig dig, thei, tig da, dig dig, thei, tha, thei, tig da, dig dig, thei, tig da, dig dig, thei, tig da, dig dig, thei, ta, thei, tig da, dig dig, thei, tig da, dig dig, thei, tig da, dig dig, thei, tha, thei
 
 Human: Create a Tukda kathak composition.
-AI:  tha | thei | tat | thei | aa | thei | tat | thei | thei | thei tha | thei | thei tha | thei | thei | tat | tat | tha | aa | tat | tat | tha thei | thei tat | aa thei | thei tat | tig da dig dig | thei tram | thei | tig da dig dig | thei tram | thei | tig da dig dig | thei tram | thei
+AI:  tig da, - tig, da, thei, tig da, dig dig, thei, -, tig da, - tig, da, thei, tig da, dig dig, thei, -, tat, s tat, s, tat, s tat, s, tig da, dig dig, thei, tig da, dig dig, thei, tig da, dig dig, thei, tig da, dig dig, thei, tig da, dig dig, thei, tig da, dig dig, thei, tig da, dig dig, thei, tig da, dig dig, thei, tig da, dig dig, thei, 
 
 Human: Create a Tukda kathak composition.
-AI:  tha | thei | tat aa | thei | aa | thei | tat aa | thei | tig da dig dig | thei tram | thei | tig da dig dig | thei tram | thei | tig da dig dig | thei tram | thei
+AI:  tat tat, tat tat, tig da dig dig, tig da dig dig, tat tat, tat tat, thei thei, s kdan, tat tat, tat tat, tig da dig dig, tig da dig dig, tig da dig dig, tig da dig dig, thei, 1, 2, tat tat, tat tat, tig da dig dig, tig da dig dig, tat tat, tat tat, thei thei, s kdan, tat tat, tat tat, tig da dig dig, tig da dig dig, tig da dig dig, tig da dig dig, thei, 1, 2, tat tat, tat tat, tig da dig dig, tig da dig dig, tat tat, tat tat, thei thei, s kdan, tat tat, tat tat, tig da dig dig, tig da dig dig, tig da dig dig, tig da dig dig, thei, 
 
 Human: Create a Tukda kathak composition.
-AI:  tat tat | thei thei | tig da dig dig | thei | tat tat | thei thei | tig da dig dig | thei | tig da dig dig | thei tha | thei | tig da dig dig | thei tha | thei | tig da dig dig | thei tha | thei
+AI:  tig da tig, da thei, tig da dig dig, thei, tig da tig, da thei, tig da dig dig, thei, tat, tat, tat, tat, tig da dig dig, thei ta, thei, tig da dig dig, thei ta, thei, tig da dig dig, thei ta, 1 -, - 2, - -, 3 -, - 4, - -, 5 -, - 6, - -, 7 -, - 8, - -, 9
 
 Human: Create a Tukda kathak composition.
-AI:  tat | tat | thei | thei | tig da | dig dig | thei | s | tat | tat | thei | thei | tig da | dig dig | thei | s | tig da | dig dig | thei | tig da | dig dig | thei | tig da | dig dig | thei | tha | thei | tig da | dig dig | thei | tig da | dig dig | thei | tig da | dig dig | thei | ta | thei | tig da | dig dig | thei | tig da | dig dig | thei | tig da | dig dig | thei | tha | thei
+AI:  tat, tat, tig da, dig dig, tig da, dig dig, tat, tat, thei, s thei, s, kdan, tat tat, tig da dig dig, tig da dig dig, tig da dig dig, tig da dig dig, 1 -, - 2, - -, 3 -, - 4, - -, 5 -, - 6, - -, 7 -, - 8, - -, 9 -, - 10, - -, 11
 
 Human: Create a Tukda kathak composition.
-AI:  tat | tat | thei | thei | tig da | dig dig | thei | - | tig da | dig dig | thei | tig da | dig dig | thei | tig da | dig dig | thei
+AI:  tat, tat, tig da, dig dig, tig da, dig dig, tat, tat, thei tha, thei, s thei, tha thei, s, thei tha, thei, s thei, s, kdan, tat tat, tig da dig dig, tig da dig dig, tig da dig dig, thei, tat tat, tig da dig dig, tig da dig dig, tig da dig dig, thei, tat tat, tig da dig dig, tig da dig dig, tig da dig dig, thei
 
 Human: Create a Tukda kathak composition.
-AI:  tat | tat | tig da | dig dig | tig da | dig dig | tat | tat | thei | s thei | s | kdan | tat tat | tig da dig dig | tig da dig dig | tig da dig dig | thei
+AI:  tha thei, tha thei, tat thei, aa thei, aa thei, tat thei, tha thei, -, -, tat tat, tha, tat tat, tha, tat tat, tha thei, s, thei, s thei, s thei, tat tat, ta, -, tha thei, tha thei, tat thei, aa thei, aa thei, tat thei, tha thei, -, -, tat tat, tha, tat tat, tha, tat tat, tha thei, s, thei, s thei, s thei, tat tat, ta, -, tha thei, tha thei, tat thei, aa thei, aa thei, tat thei, tha thei, -, -, tat tat, tha, tat tat, tha, tat tat, tha thei, s, thei, s thei, s thei, tat tat, ta
 
 Human: Create a Tukda kathak composition.
-AI:  tig da tig | da thei | thei kdan | dha ka ta | dha | kat kat | - kdan | dha ka ta | dha | kat kat | - kdan | dha ka ta | dha kdan | dha ka ta | dha kdan | dha ka ta | dha
+AI:  tha thei, tat thei, -, thei, aa thei, tat thei, -, thei, thei tha thei, s tha thei, thei thei, tat tat, tha, tat tat, tha, tat tat, tha tat, s tha dha, tat tha dha, s tat tha, dha tat, s tha dha, s tat tha dha, s tat tha, dha tat, s tha dha, s tat tha dha, s tat tha, dha, tat tat, tha, tat tat, tha, tat tat, tha tat, s tha dha, tat tha dha, s tat tha, dha tat, s tha dha, s tat tha dha, s tat tha, dha tat, s tha dha, s tat tha dha, s tat tha, dha, tat tat, tha, tat tat, tha, tat tat, tha tat, s tha dha, tat tha dha, s tat tha, dha tat, s tha dha, s tat tha dha, s tat tha, dha tat, s tha dha, s tat tha dha, s tat tha, dha
 
 Human: Create a Tukda kathak composition.
-AI:  tig da | - tig | da | thei | tig da | dig dig | thei | - | tig da | - tig | da | thei | tig da | dig dig | thei | - | tat | s tat | s | tat | s tat | s | tig da | dig dig | thei | tig da | dig dig | thei | tig da | dig dig | thei | tig da | dig dig | thei | tig da | dig dig | thei | tig da | dig dig | thei | tig da | dig dig | thei | tig da | dig dig | thei | tig da | dig dig | thei | 
-
-Human: Create a Tukda kathak composition.
-AI:  tig da tig | da tig da | s tig da | tig da dig dig | thei tig da | dig dig thei | tha thei thei tat | aa thei thei tat | tha thei thei tat | aa thei thei tat | thei | tig da tig | da tig da | s tig da | tig da dig dig | thei tig da | dig dig thei | tha thei thei tat | aa thei thei tat | tha thei thei tat | aa thei thei tat | thei | tig da tig | da tig da | s tig da | tig da dig dig | thei tig da | dig dig thei | tha thei thei tat | aa thei thei tat | tha thei thei tat | aa thei thei tat | thei
-
-Human: Create a Tukda kathak composition.
-AI:  tig da tig | da tig da | s tig da | tig da tig | da tig da | s tig da | na dhin dhin dha | na dhin dhin dha | na dhin dhin dha | na dhin dhin dha | dha | tig da tig | da tig da | s tig da | tig da tig | da tig da | s tig da | na dhin dhin dha | na dhin dhin dha | na dhin dhin dha | na dhin dhin dha | dha | tig da tig | da tig da | s tig da | tig da tig | da tig da | s tig da | na dhin dhin dha | na dhin dhin dha | na dhin dhin dha | na dhin dhin dha | dha
-
-Human: Create a Tukda kathak composition.
-AI:  tat tat | tat tat | tig da dig dig | tig da dig dig | tat tat | tat tat | thei thei | s kdan | tat tat | tat tat | tig da dig dig | tig da dig dig | tig da dig dig | tig da dig dig | thei | 1 | 2 | tat tat | tat tat | tig da dig dig | tig da dig dig | tat tat | tat tat | thei thei | s kdan | tat tat | tat tat | tig da dig dig | tig da dig dig | tig da dig dig | tig da dig dig | thei | 1 | 2 | tat tat | tat tat | tig da dig dig | tig da dig dig | tat tat | tat tat | thei thei | s kdan | tat tat | tat tat | tig da dig dig | tig da dig dig | tig da dig dig | tig da dig dig | thei | 
-
-Human: Create a Tukda kathak composition.
-AI:  tig da tig | da thei | tig da dig dig | thei | tig da tig | da thei | tig da dig dig | thei | tat | tat | tat | tat | tig da dig dig | thei ta | thei | tig da dig dig | thei ta | thei | tig da dig dig | thei ta | 1 - | - 2 | - - | 3 - | - 4 | - - | 5 - | - 6 | - - | 7 - | - 8 | - - | 9
-
-Human: Create a Tukda kathak composition.
-AI:  tig da dig dig | tig da dig dig | thei | tig da tig tig | tig da dig dig | thei tha | tig da dig dig | tig da dig dig | thei tha | thei - tha | thei | tig da dig dig | tig da dig dig | thei | tig da tig tig | tig da dig dig | thei tha | tig da dig dig | tig da dig dig | thei tha | thei - tha | thei | tig da dig dig | tig da dig dig | thei | tig da tig tig | tig da dig dig | thei tha | tig da dig dig | tig da dig dig | thei tha | thei - tha | thei
-
-Human: Create a Tukda kathak composition.
-AI:  tha - thu | nga tha ka | tha ki ta thu | nga ta ka | tha ki ta thu | nga ta ka | tig ga dig dig | tig ga dig dig | thei tha thei | s tha thei | tig ga dig dig | tig ga dig dig | thei tha thei | s tha thei | tig ga dig dig | tig ga dig dig | thei tha thei | s tha thei | tha - | tat tat | tha | - | tha - thu | nga tha ka | tha ki ta thu | nga ta ka | tha ki ta thu | nga ta ka | tig ga dig dig | tig ga dig dig | thei tha thei | s tha thei | tig ga dig dig | tig ga dig dig | thei tha thei | s tha thei | tig ga dig dig | tig ga dig dig | thei tha thei | s tha thei | tha - | tat tat | tha | - | tha - thu | nga tha ka | tha ki ta thu | nga ta ka | tha ki ta thu | nga ta ka | tig ga dig dig | tig ga dig dig | thei tha thei | s tha thei | tig ga dig dig | tig ga dig dig | thei tha thei | s tha thei | tig ga dig dig | tig ga dig dig | thei tha thei | s tha thei | tha - | tat tat | tha
-
-Human: Create a Tukda kathak composition.
-AI:  tat | tat | tig da | dig dig | tig da | dig dig | tat | tat | thei | s thei | s | kdan | tat tat | tig da dig dig | tig da dig dig | tig da dig dig | tig da dig dig | 1 - | - 2 | - - | 3 - | - 4 | - - | 5 - | - 6 | - - | 7 - | - 8 | - - | 9 - | - 10 | - - | 11
-
-Human: Create a Tukda kathak composition.
-AI:  tat | tat | tig da | dig dig | tig da | dig dig | tat | tat | thei tha | thei | s thei | tha thei | s | thei tha | thei | s thei | s | kdan | tat tat | tig da dig dig | tig da dig dig | tig da dig dig | thei | tat tat | tig da dig dig | tig da dig dig | tig da dig dig | thei | tat tat | tig da dig dig | tig da dig dig | tig da dig dig | thei
-
-Human: Create a Tukda kathak composition.
-AI:  tha thei | tha thei | tat thei | aa thei | aa thei | tat thei | tha thei | - | - | tat tat | tha | tat tat | tha | tat tat | tha thei | s | thei | s thei | s thei | tat tat | ta | - | tha thei | tha thei | tat thei | aa thei | aa thei | tat thei | tha thei | - | - | tat tat | tha | tat tat | tha | tat tat | tha thei | s | thei | s thei | s thei | tat tat | ta | - | tha thei | tha thei | tat thei | aa thei | aa thei | tat thei | tha thei | - | - | tat tat | tha | tat tat | tha | tat tat | tha thei | s | thei | s thei | s thei | tat tat | ta
-
-Human: Create a Tukda kathak composition.
-AI:  tha thei | tat thei | - | thei | aa thei | tat thei | - | thei | thei tha thei | s tha thei | thei thei | tat tat | tha | tat tat | tha | tat tat | tha tat | s tha dha | tat tha dha | s tat tha | dha tat | s tha dha | s tat tha dha | s tat tha | dha tat | s tha dha | s tat tha dha | s tat tha | dha | tat tat | tha | tat tat | tha | tat tat | tha tat | s tha dha | tat tha dha | s tat tha | dha tat | s tha dha | s tat tha dha | s tat tha | dha tat | s tha dha | s tat tha dha | s tat tha | dha | tat tat | tha | tat tat | tha | tat tat | tha tat | s tha dha | tat tha dha | s tat tha | dha tat | s tha dha | s tat tha dha | s tat tha | dha tat | s tha dha | s tat tha dha | s tat tha | dha
-
-Human: Create a Tukda kathak composition.
-AI:  tig da tig | da thei | thei kdan | dha ka ta | dha - | - dha | - - | dha - | - dha | - - | dha | tig da tig | da thei | thei kdan | dha ka ta | dha - | - dha | - - | dha - | - dha | - - | dha | tig da tig | da thei | thei kdan | dha ka ta | dha - | - dha | - - | dha - | - dha | - - | dha
-
-Human: Create a Tukda kathak composition.
-AI:  tat tat | thei | tig da dig dig | thei | tat tat | thei | tig da dig dig | thei | tha thei | tat thei | aa thei | tat thei | thei | tat | tat tat | thei tat | tat thei | tat tat | thei | - | - | tat tat | thei tat | tat thei | tat tat | thei | - | - | tat tat | thei tat | tat thei | tat tat | thei
-
-Human: Create a Tukda kathak composition.
-AI:  tat tat | tig da dig dig | thei tat | tat tig da | dig dig thei | tha thei | tha thei | tha thei | tig da dig dig | thei tha | thei | tat tat | tig da dig dig | thei tat | tat tig da | dig dig thei | tha thei | tha thei | tha thei | tig da dig dig | thei tha | thei | tat tat | tig da dig dig | thei tat | tat tig da | dig dig thei | tha thei | tha thei | tha thei | tig da dig dig | thei tha | thei
+AI:  tat tat, thei, tig da dig dig, thei, tat tat, thei, tig da dig dig, thei, tha thei, tat thei, aa thei, tat thei, thei, tat, tat tat, thei tat, tat thei, tat tat, thei, -, -, tat tat, thei tat, tat thei, tat tat, thei, -, -, tat tat, thei tat, tat thei, tat tat, thei
 
