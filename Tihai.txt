@@ -1,78 +1,78 @@
 Human: Create a Tihai kathak composition.
-AI:  tha thei thei tat, aa thei thei tat, thei ta, thei tha thei, thei tat aa thei, thei tat thei, tha thei, tha thei thei tat, aa thei thei tat, thei ta, thei, tha thei thei tat, aa thei thei tat, thei ta, thei tha thei, thei tat aa thei, thei tat thei, tha thei, tha thei thei tat, aa thei thei tat, thei ta, thei, tha thei thei tat, aa thei thei tat, thei ta, thei tha thei, thei tat aa thei, thei tat thei, tha thei, tha thei thei tat, aa thei thei tat, thei ta, thei
+AI:  tha thei thei tat | aa thei thei tat | thei ta | thei tha thei | thei tat aa thei | thei tat thei | tha thei | tha thei thei tat | aa thei thei tat | thei ta | thei | tha thei thei tat | aa thei thei tat | thei ta | thei tha thei | thei tat aa thei | thei tat thei | tha thei | tha thei thei tat | aa thei thei tat | thei ta | thei | tha thei thei tat | aa thei thei tat | thei ta | thei tha thei | thei tat aa thei | thei tat thei | tha thei | tha thei thei tat | aa thei thei tat | thei ta | thei
 
 Human: Create a Tihai kathak composition.
-AI:  tha ki ta tha, ki ta ghi na, ghi na tha ki, ta dhi ki ta, dha - ghi na, ghi na tha ki, ta dhi ki ta, dha - ghi na, ghi na tha ki, ta dhi ki ta, dha -, tha ki ta tha, ki ta ghi na, ghi na tha ki, ta dhi ki ta, dha - ghi na, ghi na tha ki, ta dhi ki ta, dha - ghi na, ghi na tha ki, ta dhi ki ta, dha -, tha ki ta tha, ki ta ghi na, ghi na tha ki, ta dhi ki ta, dha - ghi na, ghi na tha ki, ta dhi ki ta, dha - ghi na, ghi na tha ki, ta dhi ki ta, dha -
+AI:  tha ki ta tha | ki ta ghi na | ghi na tha ki | ta dhi ki ta | dha - ghi na | ghi na tha ki | ta dhi ki ta | dha - ghi na | ghi na tha ki | ta dhi ki ta | dha - | tha ki ta tha | ki ta ghi na | ghi na tha ki | ta dhi ki ta | dha - ghi na | ghi na tha ki | ta dhi ki ta | dha - ghi na | ghi na tha ki | ta dhi ki ta | dha - | tha ki ta tha | ki ta ghi na | ghi na tha ki | ta dhi ki ta | dha - ghi na | ghi na tha ki | ta dhi ki ta | dha - ghi na | ghi na tha ki | ta dhi ki ta | dha -
 
 Human: Create a Tihai kathak composition.
-AI:  1 - - 1, 2 - 1 2, 3 - - 1, 2 3 4 - , 1 2 3 4, 5 - 1 2, 3 4 5 -, 1 2 3 4, 5 - 4 -, 3 - 2 -, 1 - - -, 1 - - 1, 2 - 1 2, 3 - - 1, 2 3 4 - , 1 2 3 4, 5 - 1 2, 3 4 5 -, 1 2 3 4, 5 - 4 -, 3 - 2 -, 1 - - -, 1 - - 1, 2 - 1 2, 3 - - 1, 2 3 4 - , 1 2 3 4, 5 - 1 2, 3 4 5 -, 1 2 3 4, 5 - 4 -, 3 - 2 -, 1
+AI:  1 - - 1 | 2 - 1 2 | 3 - - 1 | 2 3 4 -  | 1 2 3 4 | 5 - 1 2 | 3 4 5 - | 1 2 3 4 | 5 - 4 - | 3 - 2 - | 1 - - - | 1 - - 1 | 2 - 1 2 | 3 - - 1 | 2 3 4 -  | 1 2 3 4 | 5 - 1 2 | 3 4 5 - | 1 2 3 4 | 5 - 4 - | 3 - 2 - | 1 - - - | 1 - - 1 | 2 - 1 2 | 3 - - 1 | 2 3 4 -  | 1 2 3 4 | 5 - 1 2 | 3 4 5 - | 1 2 3 4 | 5 - 4 - | 3 - 2 - | 1
 
 Human: Create a Tihai kathak composition.
-AI:  tha thei thei tat, aa thei thei tat, tha thei thei tat, aa thei thei tat, 1 2 3 4, - tha dha - , 1 2 3 4, - tha dha -, 1 2 3 4, - tha dha -, dha, tha thei thei tat, aa thei thei tat, tha thei thei tat, aa thei thei tat, 1 2 3 4, - tha dha - , 1 2 3 4, - tha dha -, 1 2 3 4, - tha dha -, dha, tha thei thei tat, aa thei thei tat, tha thei thei tat, aa thei thei tat, 1 2 3 4, - tha dha - , 1 2 3 4, - tha dha -, 1 2 3 4, - tha dha -, dha
+AI:  tha thei thei tat | aa thei thei tat | tha thei thei tat | aa thei thei tat | 1 2 3 4 | - tha dha -  | 1 2 3 4 | - tha dha - | 1 2 3 4 | - tha dha - | dha | tha thei thei tat | aa thei thei tat | tha thei thei tat | aa thei thei tat | 1 2 3 4 | - tha dha -  | 1 2 3 4 | - tha dha - | 1 2 3 4 | - tha dha - | dha | tha thei thei tat | aa thei thei tat | tha thei thei tat | aa thei thei tat | 1 2 3 4 | - tha dha -  | 1 2 3 4 | - tha dha - | 1 2 3 4 | - tha dha - | dha
 
 Human: Create a Tihai kathak composition.
-AI:  tha ga tha ga, di ga di ga, tha thun ga ta, thun ga di ga, tha ga di ga, tha ga tha thun, ga tha thun ga, tha da ghi na, - da ghi na, - da ghi na, thei, tha ga tha ga, di ga di ga, tha thun ga ta, thun ga di ga, tha ga di ga, tha ga tha thun, ga tha thun ga, tha da ghi na, - da ghi na, - da ghi na, thei, tha ga tha ga, di ga di ga, tha thun ga ta, thun ga di ga, tha ga di ga, tha ga tha thun, ga tha thun ga, tha da ghi na, - da ghi na, - da ghi na, thei
+AI:  tha ga tha ga | di ga di ga | tha thun ga ta | thun ga di ga | tha ga di ga | tha ga tha thun | ga tha thun ga | tha da ghi na | - da ghi na | - da ghi na | thei | tha ga tha ga | di ga di ga | tha thun ga ta | thun ga di ga | tha ga di ga | tha ga tha thun | ga tha thun ga | tha da ghi na | - da ghi na | - da ghi na | thei | tha ga tha ga | di ga di ga | tha thun ga ta | thun ga di ga | tha ga di ga | tha ga tha thun | ga tha thun ga | tha da ghi na | - da ghi na | - da ghi na | thei
 
 Human: Create a Tihai kathak composition.
-AI:  tha ka di ga, tha ki ta dhi, ki ta tha ka, di ga tha ki, ta dhi ki ta, tha ka di ga, tha ki ta dhi, ki ta tha ka, di ga tha ki, ta dhi ki ta, dha, tha ka di ga, tha ki ta dhi, ki ta tha ka, di ga tha ki, ta dhi ki ta, tha ka di ga, tha ki ta dhi, ki ta ta ka, di ga tha ki, ta dhi ki ta, dha, tha ka di ga, tha ki ta dhi, ki ta tha ka, di ga tha ki, ta dhi ki ta, tha ka di ga, tha ki ta dhi, ki ta tha ka, di ga tha ki, ta dhi ki ta, dha
+AI:  tha ka di ga | tha ki ta dhi | ki ta tha ka | di ga tha ki | ta dhi ki ta | tha ka di ga | tha ki ta dhi | ki ta tha ka | di ga tha ki | ta dhi ki ta | dha | tha ka di ga | tha ki ta dhi | ki ta tha ka | di ga tha ki | ta dhi ki ta | tha ka di ga | tha ki ta dhi | ki ta ta ka | di ga tha ki | ta dhi ki ta | dha | tha ka di ga | tha ki ta dhi | ki ta tha ka | di ga tha ki | ta dhi ki ta | tha ka di ga | tha ki ta dhi | ki ta tha ka | di ga tha ki | ta dhi ki ta | dha
 
 Human: Create a Tihai kathak composition.
-AI:  tha thei thei tat, thei - tha thei, thei tat aa thei, thei tat thei -, tha thei thei tat, aa thei thei tat, tha thei thei tat, thei - tig da, di ga di ga thei -, tig da di ga di ga, thei, tha thei thei tat, thei - tha thei, thei tat aa thei, thei tat thei -, tha thei thei tat, aa thei thei tat, tha thei thei tat, thei - tig da, di ga di ga thei -, tig da di ga di ga, thei, tha thei thei tat, thei - tha thei, thei tat aa thei, thei tat thei -, tha thei thei tat, aa thei thei tat, tha thei thei tat, thei - tig da, di ga di ga thei -, tig da di ga di ga, thei
+AI:  tha thei thei tat | thei - tha thei | thei tat aa thei | thei tat thei - | tha thei thei tat | aa thei thei tat | tha thei thei tat | thei - tig da | di ga di ga thei - | tig da di ga di ga | thei | tha thei thei tat | thei - tha thei | thei tat aa thei | thei tat thei - | tha thei thei tat | aa thei thei tat | tha thei thei tat | thei - tig da | di ga di ga thei - | tig da di ga di ga | thei | tha thei thei tat | thei - tha thei | thei tat aa thei | thei tat thei - | tha thei thei tat | aa thei thei tat | tha thei thei tat | thei - tig da | di ga di ga thei - | tig da di ga di ga | thei
 
 Human: Create a Tihai kathak composition.
-AI:  1 2 3 4, 5 6 7 -, 1 2 3 4, 5 6 7 -, 1 2 3 4, 5 - 1 2, 3 4 - 1, 2 3 - 1, 2 - 1 -, - 1, - 1, 1 2 3 4, 5 6 7 -, 1 2 3 4, 5 6 7 -, 1 2 3 4, 5 - 1 2, 3 4 - 1, 2 3 - 1, 2 - 1 -, - 1, - 1, 1 2 3 4, 5 6 7 -, 1 2 3 4, 5 6 7 -, 1 2 3 4, 5 - 1 2, 3 4 - 1, 2 3 - 1, 2 - 1 -, - 1, - 1
+AI:  1 2 3 4 | 5 6 7 - | 1 2 3 4 | 5 6 7 - | 1 2 3 4 | 5 - 1 2 | 3 4 - 1 | 2 3 - 1 | 2 - 1 - | - 1 | - 1 | 1 2 3 4 | 5 6 7 - | 1 2 3 4 | 5 6 7 - | 1 2 3 4 | 5 - 1 2 | 3 4 - 1 | 2 3 - 1 | 2 - 1 - | - 1 | - 1 | 1 2 3 4 | 5 6 7 - | 1 2 3 4 | 5 6 7 - | 1 2 3 4 | 5 - 1 2 | 3 4 - 1 | 2 3 - 1 | 2 - 1 - | - 1 | - 1
 
 Human: Create a Tihai kathak composition.
-AI:  tha ka tha ka, tha ki ta dhi, ki ta tha ka, tha ki ta dhi, ki ta tha ki, ta dhi ki ta, dha, tha, tha ki ta dhi, ki ta dha -, - tha - , - tha ki, ta dhi ki ta, dha, tha, dha 1, 2 tha ka, tha ka tha ki, ta dhi ki ta, tha ka tha ki, ta dhi ki ta, tha ki ta dhi, ki ta dha -, - tha -, - tha ki, ta dhi ki ta, dha, tha, tha ki ta dhi, ki ta dha -, - tha -, - dha, 1 2, tha ka tha ka, tha ki ta dhi, ki ta tha ka, tha ki ta dhi, ki ta tha ki, ta dhi ki ta, dha, tha, tha ki ta dhi, ki ta dha -, - tha -, - tha ki, ta dhi ki ta, dha, tha, dha
+AI:  tha ka tha ka | tha ki ta dhi | ki ta tha ka | tha ki ta dhi | ki ta tha ki | ta dhi ki ta | dha | tha | tha ki ta dhi | ki ta dha - | - tha -  | - tha ki | ta dhi ki ta | dha | tha | dha 1 | 2 tha ka | tha ka tha ki | ta dhi ki ta | tha ka tha ki | ta dhi ki ta | tha ki ta dhi | ki ta dha - | - tha - | - tha ki | ta dhi ki ta | dha | tha | tha ki ta dhi | ki ta dha - | - tha - | - dha | 1 2 | tha ka tha ka | tha ki ta dhi | ki ta tha ka | tha ki ta dhi | ki ta tha ki | ta dhi ki ta | dha | tha | tha ki ta dhi | ki ta dha - | - tha - | - tha ki | ta dhi ki ta | dha | tha | dha
 
 Human: Create a Tihai kathak composition.
-AI:  ghi na ti ta, ti ta ghi na, ti ta ti ta, ti ta ghi na, ti ta ti ta, ti ta ti ta, na dhin dhin na, na dhin dhin na, na dhin dhin na, na dhin dhin na, dha, ghi na ti ta, ti ta ghi na, ti ta ti ta, ti ta ghi na, ti ta ti ta, ti ta ti ta, na dhin dhin na, na dhin dhin na, na dhin dhin na, na dhin dhin na, dha, ghi na ti ta, ti ta ghi na, ti ta ti ta, ti ta ghi na, ti ta ti ta, ti ta ti ta, na dhin dhin na, na dhin dhin na, na dhin dhin na, na dhin dhin na, dha
+AI:  ghi na ti ta | ti ta ghi na | ti ta ti ta | ti ta ghi na | ti ta ti ta | ti ta ti ta | na dhin dhin na | na dhin dhin na | na dhin dhin na | na dhin dhin na | dha | ghi na ti ta | ti ta ghi na | ti ta ti ta | ti ta ghi na | ti ta ti ta | ti ta ti ta | na dhin dhin na | na dhin dhin na | na dhin dhin na | na dhin dhin na | dha | ghi na ti ta | ti ta ghi na | ti ta ti ta | ti ta ghi na | ti ta ti ta | ti ta ti ta | na dhin dhin na | na dhin dhin na | na dhin dhin na | na dhin dhin na | dha
 
 Human: Create a Tihai kathak composition.
-AI:  tha ki ta tha, tha ka ghi na, tha ki ta ghi, na tha ki ta, dha - ghi na, tha ki ta ghi, na tha ki ta, dha - ghi na, tha ki ta ghi, na tha ki ta, dha, tha ki ta tha, tha ka ghi na, tha ki ta ghi, na tha ki ta, dha - ghi na, tha ki ta ghi, na tha ki ta, dha - ghi na, tha ki ta ghi, na tha ki ta, dha, tha ki ta tha, tha ka ghi na, tha ki ta ghi, na tha ki ta, dha - ghi na, tha ki ta ghi, na tha ki ta, dha - ghi na, tha ki ta ghi, na tha ki ta, dha
+AI:  tha ki ta tha | tha ka ghi na | tha ki ta ghi | na tha ki ta | dha - ghi na | tha ki ta ghi | na tha ki ta | dha - ghi na | tha ki ta ghi | na tha ki ta | dha | tha ki ta tha | tha ka ghi na | tha ki ta ghi | na tha ki ta | dha - ghi na | tha ki ta ghi | na tha ki ta | dha - ghi na | tha ki ta ghi | na tha ki ta | dha | tha ki ta tha | tha ka ghi na | tha ki ta ghi | na tha ki ta | dha - ghi na | tha ki ta ghi | na tha ki ta | dha - ghi na | tha ki ta ghi | na tha ki ta | dha
 
 Human: Create a Tihai kathak composition.
-AI:  1 2, 3 4, 5 6, 7 1, 2 3, 4 5, 6 7, 1 2, 3 4, 5 6, 7, 1 2, 3 4, 5 6, 7 1, 2 3, 4 5, 6 7, 1 2, 3 4, 5 6, 7, 1 2, 3 4, 5 6, 7 1, 2 3, 4 5, 6 7, 1 2, 3 4, 5 6, 7
+AI:  1 2 | 3 4 | 5 6 | 7 1 | 2 3 | 4 5 | 6 7 | 1 2 | 3 4 | 5 6 | 7 | 1 2 | 3 4 | 5 6 | 7 1 | 2 3 | 4 5 | 6 7 | 1 2 | 3 4 | 5 6 | 7 | 1 2 | 3 4 | 5 6 | 7 1 | 2 3 | 4 5 | 6 7 | 1 2 | 3 4 | 5 6 | 7
 
 Human: Create a Tihai kathak composition.
-AI:  tha ka tha ki, ta tha ka tha, ki ta tha ka, tha ki ta tha, ka tha ki ta, tha ki ta dhi, ki ta ghi na, tha ki ta dhi, ki ta ghi na, thei ta, thei, tha ka tha ki, ta tha ka tha, ki ta tha ka, tha ki ta tha, ka tha ki ta, tha ki ta dhi, ki ta ghi na, tha ki ta dhi, ki ta ghi na, thei ta, thei, tha ka tha ki, ta tha ka tha, ki ta tha ka, tha ki ta tha, ka tha ki ta, tha ki ta dhi, ki ta ghi na, tha ki ta dhi, ki ta ghi na, thei ta, thei
+AI:  tha ka tha ki | ta tha ka tha | ki ta tha ka | tha ki ta tha | ka tha ki ta | tha ki ta dhi | ki ta ghi na | tha ki ta dhi | ki ta ghi na | thei ta | thei | tha ka tha ki | ta tha ka tha | ki ta tha ka | tha ki ta tha | ka tha ki ta | tha ki ta dhi | ki ta ghi na | tha ki ta dhi | ki ta ghi na | thei ta | thei | tha ka tha ki | ta tha ka tha | ki ta tha ka | tha ki ta tha | ka tha ki ta | tha ki ta dhi | ki ta ghi na | tha ki ta dhi | ki ta ghi na | thei ta | thei
 
 Human: Create a Tihai kathak composition.
-AI:  ti ta ka tha, ga di ghi na, dha, -, ti ta ka tha, ga di ghi na, dha, -, ti ta ka tha, ga di ghi na, dha, ti ta ka tha, ga di ghi na, dha, -, ti ta ka tha, ga di ghi na, dha, -, ti ta ka tha, ga di ghi na, dha, ti ta ka tha, ga di ghi na, dha, -, ti ta ka tha, ga di ghi na, dha, -, ti ta ka tha, ga di ghi na, dha, 
+AI:  ti ta ka tha | ga di ghi na | dha | - | ti ta ka tha | ga di ghi na | dha | - | ti ta ka tha | ga di ghi na | dha | ti ta ka tha | ga di ghi na | dha | - | ti ta ka tha | ga di ghi na | dha | - | ti ta ka tha | ga di ghi na | dha | ti ta ka tha | ga di ghi na | dha | - | ti ta ka tha | ga di ghi na | dha | - | ti ta ka tha | ga di ghi na | dha | 
 
 Human: Create a Tihai kathak composition.
-AI:  tha thei thei tat, aa thei thei tat, tha thei thei tat, aa thei thei tat, tha thei thei tat, aa thei thei tat, tha thei thei tat, aa thei thei tat, thei, -, -, -, tha thei thei tat, aa thei thei tat, tha thei thei tat, aa thei thei tat, tha thei thei tat, aa thei thei tat, tha thei thei tat, aa thei thei tat, thei, -, -, -, tha thei thei tat, aa thei thei tat, tha thei thei tat, aa thei thei tat, tha thei thei tat, aa thei thei tat, tha thei thei tat, aa thei thei tat, thei
+AI:  tha thei thei tat | aa thei thei tat | tha thei thei tat | aa thei thei tat | tha thei thei tat | aa thei thei tat | tha thei thei tat | aa thei thei tat | thei | - | - | - | tha thei thei tat | aa thei thei tat | tha thei thei tat | aa thei thei tat | tha thei thei tat | aa thei thei tat | tha thei thei tat | aa thei thei tat | thei | - | - | - | tha thei thei tat | aa thei thei tat | tha thei thei tat | aa thei thei tat | tha thei thei tat | aa thei thei tat | tha thei thei tat | aa thei thei tat | thei
 
 Human: Create a Tihai kathak composition.
-AI:  ti ta ka tha, ga di ghi na, dha tat, dha -, dha tat, dha ti ta, ka tha ga di, ghi na dha, tat dha, - dha, tat dha, ti ta ka tha, ga di ghi na, dha tat, dha -, dha tat, dha
+AI:  ti ta ka tha | ga di ghi na | dha tat | dha - | dha tat | dha ti ta | ka tha ga di | ghi na dha | tat dha | - dha | tat dha | ti ta ka tha | ga di ghi na | dha tat | dha - | dha tat | dha
 
 Human: Create a Tihai kathak composition.
-AI:  tha thei thei tat, aa thei thei tat, tha thei thei tat, aa thei thei tat, thei, -, tha thei thei tat, aa thei thei tat, tha thei thei tat, aa thei thei tat, thei, -, tha thei thei tat, aa thei thei tat, tha thei thei tat, aa thei thei tat, thei
+AI:  tha thei thei tat | aa thei thei tat | tha thei thei tat | aa thei thei tat | thei | - | tha thei thei tat | aa thei thei tat | tha thei thei tat | aa thei thei tat | thei | - | tha thei thei tat | aa thei thei tat | tha thei thei tat | aa thei thei tat | thei
 
 Human: Create a Tihai kathak composition.
-AI:  tha ga tha ga, di ga di ga, tha ki ta dhi, ki ta tha ki, ta dhi ki ta, tha ki ta dhi, ki ta tha, dha, -, -, dha, tha ga tha ga, di ga di ga, tha ki ta dhi, ki ta tha ki, ta dhi ki ta, tha ki ta dhi, ki ta tha, dha, -, -, dha, tha ga tha ga, di ga di ga, tha ki ta dhi, ki ta tha ki, ta dhi ki ta, tha ki ta dhi, ki ta tha, dha, -, -, dha
+AI:  tha ga tha ga | di ga di ga | tha ki ta dhi | ki ta tha ki | ta dhi ki ta | tha ki ta dhi | ki ta tha | dha | - | - | dha | tha ga tha ga | di ga di ga | tha ki ta dhi | ki ta tha ki | ta dhi ki ta | tha ki ta dhi | ki ta tha | dha | - | - | dha | tha ga tha ga | di ga di ga | tha ki ta dhi | ki ta tha ki | ta dhi ki ta | tha ki ta dhi | ki ta tha | dha | - | - | dha
 
 Human: Create a Tihai kathak composition.
-AI:  tha ki ta dhi, ki ta tha ki, ta dhi ki ta, dha dha, dhin tha, ti ta dha, dhin tha, ti ta ka tha, ga dhi ghi na, dha tha, dha, tha ki ta dhi, ki ta tha ki, ta dhi ki ta, dha dha, dhin tha, ti ta dha, dhin tha, ti ta ka tha, ga dhi ghi na, dha tha, dha, tha ki ta dhi, ki ta tha ki, ta dhi ki ta, dha dha, dhin tha, ti ta dha, dhin tha, ti ta ka tha, ga dhi ghi na, dha tha, dha
+AI:  tha ki ta dhi | ki ta tha ki | ta dhi ki ta | dha dha | dhin tha | ti ta dha | dhin tha | ti ta ka tha | ga dhi ghi na | dha tha | dha | tha ki ta dhi | ki ta tha ki | ta dhi ki ta | dha dha | dhin tha | ti ta dha | dhin tha | ti ta ka tha | ga dhi ghi na | dha tha | dha | tha ki ta dhi | ki ta tha ki | ta dhi ki ta | dha dha | dhin tha | ti ta dha | dhin tha | ti ta ka tha | ga dhi ghi na | dha tha | dha
 
 Human: Create a Tihai kathak composition.
-AI:  ti ra ki ta, tha ka tha, ti ra ki ta, dha ti, dha, ti ra ki ta, dha ti, dha, ti ra ki ta, dha ti, dha, ti ra ki ta, tha ka tha, ti ra ki ta, dha ti, dha, ti ra ki ta, dha ti, dha, ti ra ki ta, dha ti, dha, ti ra ki ta, tha ka tha, ti ra ki ta, dha ti, dha, ti ra ki ta, dha ti, dha, ti ra ki ta, dha ti, dha, 
+AI:  ti ra ki ta | tha ka tha | ti ra ki ta | dha ti | dha | ti ra ki ta | dha ti | dha | ti ra ki ta | dha ti | dha | ti ra ki ta | tha ka tha | ti ra ki ta | dha ti | dha | ti ra ki ta | dha ti | dha | ti ra ki ta | dha ti | dha | ti ra ki ta | tha ka tha | ti ra ki ta | dha ti | dha | ti ra ki ta | dha ti | dha | ti ra ki ta | dha ti | dha | 
 
 Human: Create a Tihai kathak composition.
-AI:  dha ge, ti ta, ka tha, ga dhi, ghi na, dha dha, ge ti, ta ka, tha ga, dhi ghi, na dha, dha ge, ti ta, ka tha, ga dhi, ghi na, dha
+AI:  dha ge | ti ta | ka tha | ga dhi | ghi na | dha dha | ge ti | ta ka | tha ga | dhi ghi | na dha | dha ge | ti ta | ka tha | ga dhi | ghi na | dha
 
 Human: Create a Tihai kathak composition.
-AI:  ti tha ka, - tha ga, di ghi na, dha - ti tha, ka tha ga di, ghi na dha, ti tha ka tha ga di ghi na, dha - ti tha ka tha, ga di ghi na dha -, ti tha ka tha ga di ghi na, dha, ti tha ka, - tha ga, di ghi na, dha - ti tha, ka tha ga di, ghi na dha, ti tha ka tha ga di ghi na, dha - ti tha ka tha, ga di ghi na dha -, ti tha ka tha ga di ghi na, dha, ti tha ka, - tha ga, di ghi na, dha - ti tha, ka tha ga di, ghi na dha, ti tha ka tha ga di ghi na, dha - ti tha ka tha, ga di ghi na dha -, ti tha ka tha ga di ghi na, dha
+AI:  ti tha ka | - tha ga | di ghi na | dha - ti tha | ka tha ga di | ghi na dha | ti tha ka tha ga di ghi na | dha - ti tha ka tha | ga di ghi na dha - | ti tha ka tha ga di ghi na | dha | ti tha ka | - tha ga | di ghi na | dha - ti tha | ka tha ga di | ghi na dha | ti tha ka tha ga di ghi na | dha - ti tha ka tha | ga di ghi na dha - | ti tha ka tha ga di ghi na | dha | ti tha ka | - tha ga | di ghi na | dha - ti tha | ka tha ga di | ghi na dha | ti tha ka tha ga di ghi na | dha - ti tha ka tha | ga di ghi na dha - | ti tha ka tha ga di ghi na | dha
 
 Human: Create a Tihai kathak composition.
-AI:  di ga di ga, thei, di ga di ga, thei, di ga di ga, thei tha, thei, thei tha, thei, thei tha, thei, di ga di ga, thei, di ga di ga, thei, di ga di ga, thei tha, thei, thei tha, thei, thei tha, thei, di ga di ga, thei, di ga di ga, thei, di ga di ga, thei tha, thei, thei tha, thei, thei tha, thei, 
+AI:  di ga di ga | thei | di ga di ga | thei | di ga di ga | thei tha | thei | thei tha | thei | thei tha | thei | di ga di ga | thei | di ga di ga | thei | di ga di ga | thei tha | thei | thei tha | thei | thei tha | thei | di ga di ga | thei | di ga di ga | thei | di ga di ga | thei tha | thei | thei tha | thei | thei tha | thei | 
 
 Human: Create a Tihai kathak composition.
-AI:  1 2, 3 4, 5, 1 2, 3 4, 5, 1 2, 3 4, 5, 1 2, 3, 1 2, 3 4, 5, 1 2, 3 4, 5, 1 2, 3 4, 5, 1 2, 3, 1 2, 3 4, 5, 1 2, 3 4, 5, 1 2, 3 4, 5, 1 2, 3
+AI:  1 2 | 3 4 | 5 | 1 2 | 3 4 | 5 | 1 2 | 3 4 | 5 | 1 2 | 3 | 1 2 | 3 4 | 5 | 1 2 | 3 4 | 5 | 1 2 | 3 4 | 5 | 1 2 | 3 | 1 2 | 3 4 | 5 | 1 2 | 3 4 | 5 | 1 2 | 3 4 | 5 | 1 2 | 3
 
 Human: Create a Tihai kathak composition.
-AI:  tig da, dig dig, tig da, dig dig, thei, tha, thei, tha, thei, -, -, -, tig da, dig dig, tig da, dig dig, thei, tha, thei, tha, thei, -, -, -, tig da, dig dig, tig da, dig dig, thei, tha, thei, tha, thei
+AI:  tig da | dig dig | tig da | dig dig | thei | tha | thei | tha | thei | - | - | - | tig da | dig dig | tig da | dig dig | thei | tha | thei | tha | thei | - | - | - | tig da | dig dig | tig da | dig dig | thei | tha | thei | tha | thei
 
 Human: Create a Tihai kathak composition.
-AI:  tha thei thei tat, aa thei thei tat, thei, thei tha, thei, -, tha thei thei tat, aa thei thei tat, thei, thei tha, thei, -, tha thei thei tat, aa thei thei tat, thei, thei tha, thei,
+AI:  tha thei thei tat | aa thei thei tat | thei | thei tha | thei | - | tha thei thei tat | aa thei thei tat | thei | thei tha | thei | - | tha thei thei tat | aa thei thei tat | thei | thei tha | thei |
 

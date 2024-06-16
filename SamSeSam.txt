@@ -1,18 +1,18 @@
-Human: Create a TukdaS kathak composition.
-AI:  tat tat, thei, tig da dig dig, thei, tha thei, tat aa thei, aa thei, tat aa thei, thei tha thei, s tha thei, thei thei, tat tat, tha tat, s tha dha, tat tha dha, s tat tha, dha
+Human: Create a Sam se Sam kathak composition.
+AI:  tat tat | thei | tig da dig dig | thei | tha thei | tat aa thei | aa thei | tat aa thei | thei tha thei | s tha thei | thei thei | tat tat | tha tat | s tha dha | tat tha dha | s tat tha | dha
 
-Human: Create a TukdaS kathak composition.
-AI:  tha, thei, tat aa, thei, aa, thei, tat aa, thei, tig da dig dig, thei tram, thei, tig da dig dig, thei tram, thei, tig da dig dig, thei tram, thei
+Human: Create a Sam se Sam kathak composition.
+AI:  tha | thei | tat aa | thei | aa | thei | tat aa | thei | tig da dig dig | thei tram | thei | tig da dig dig | thei tram | thei | tig da dig dig | thei tram | thei
 
-Human: Create a TukdaS kathak composition.
-AI:  tat tat, thei thei, tig da dig dig, thei, tat tat, thei thei, tig da dig dig, thei, tig da dig dig, thei tha, thei, tig da dig dig, thei tha, thei, tig da dig dig, thei tha, thei
+Human: Create a Sam se Sam kathak composition.
+AI:  tat tat | thei thei | tig da dig dig | thei | tat tat | thei thei | tig da dig dig | thei | tig da dig dig | thei tha | thei | tig da dig dig | thei tha | thei | tig da dig dig | thei tha | thei
 
-Human: Create a TukdaS kathak composition.
-AI:  tat, tat, thei, thei, tig da, dig dig, thei, -, tig da, dig dig, thei, tig da, dig dig, thei, tig da, dig dig, thei
+Human: Create a Sam se Sam kathak composition.
+AI:  tat | tat | thei | thei | tig da | dig dig | thei | - | tig da | dig dig | thei | tig da | dig dig | thei | tig da | dig dig | thei
 
-Human: Create a TukdaS kathak composition.
-AI:  tat, tat, tig da, dig dig, tig da, dig dig, tat, tat, thei, s thei, s, kdan, tat tat, tig da dig dig, tig da dig dig, tig da dig dig, thei
+Human: Create a Sam se Sam kathak composition.
+AI:  tat | tat | tig da | dig dig | tig da | dig dig | tat | tat | thei | s thei | s | kdan | tat tat | tig da dig dig | tig da dig dig | tig da dig dig | thei
 
-Human: Create a TukdaS kathak composition.
-AI:  tig da tig, da thei, thei kdan, dha ka ta, dha, kat kat, - kdan, dha ka ta, dha, kat kat, - kdan, dha ka ta, dha kdan, dha ka ta, dha kdan, dha ka ta, dha
+Human: Create a Sam se Sam kathak composition.
+AI:  tig da tig | da thei | thei kdan | dha ka ta | dha | kat kat | - kdan | dha ka ta | dha | kat kat | - kdan | dha ka ta | dha kdan | dha ka ta | dha kdan | dha ka ta | dha
 
