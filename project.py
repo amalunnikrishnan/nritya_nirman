@@ -1,82 +1,110 @@
 import autogen
-import dotenv
 
-config_list = autogen.config_list_from_json("nritya_nirman\GROQ_CONFIG_LIST.json")
+config_list = autogen.config_list_from_json("GROQ_CONFIG_LIST.json")
 
 llm_config = {
     "temperature": 0.2,
     "config_list": config_list,
-    "max_tokens": 1500,
+    "max_tokens": 600,
 }
 
 user_proxy = autogen.UserProxyAgent(
-    name = "Admin",
-    system_message = "Admin. You are the admin of the group chat. You can initiate the chat and provide feedback to the agents.",
-    code_execution_config = {
-        "work_dir": None,
-        "use_docker": False
-    },
-    human_input_mode = "TERMINATE",
+    name="Admin",
+    system_message="Human Admin. The process ends only if the Admin approves. Admin approves if critic approves.",
+    human_input_mode="NEVER",
+    code_execution_config={"use_docker": False},
 )
 
-with open("nritya_nirman\\rules_chakkar.txt", "r") as f:
-    rules = f.read()
-with open("nritya_nirman\Tukda.txt", "r") as f:
+with open("Tukda.txt", "r") as f:
     tukda = f.read()
-with open("nritya_nirman\Tihai.txt", "r") as f:
+with open("Tihai.txt", "r") as f:
     tihai = f.read()
-with open("nritya_nirman\SamSeSam.txt", "r") as f:
+with open("SamSeSam.txt", "r") as f:
     samse = f.read()
-with open("nritya_nirman\Chakkardar.txt", "r") as f:
+with open("Chakkardar.txt", "r") as f:
     chakkardar = f.read()
+with open("GenRules.txt", "r") as f:
+    rules = f.read()
 
-tihai_composer = autogen.AssistantAgent(
-    name = "TihaiComp",
-    llm_config = llm_config,
-    system_message = """Tihai Composer. You compose unique Kathak Tihais. Each beat must be separated by a pipe (|).
-    Some examples of Kathak compositions: {tihai}. """.format(tihai=tihai),
+tihai_composer = autogen.ConversableAgent(
+    name="tihai_composer",
+    llm_config=llm_config,
+    description="This is a composer agent that generates Kathak Tihai compositions.",
+    system_message="""Tihai Composer. You compose  a variety of unique Kathak Tihais. Each segment is separated by a pipe symbol (|).
+    Take the feedback of the critic and make changes if needed.
+    Some examples of Kathak Tihais: {tihai}""".format(
+        tihai=tihai
+    ),
 )
 
-tukda_composer = autogen.AssistantAgent(
-    name = "TukdaComp",
-    llm_config = llm_config,
-    system_message = """Tukda Composer. You compose regular Kathak Tukdas only and nothing else. Each beat must be separated by a pipe (|).
-    Some examples of Kathak compositions: {tukda}
-    """.format(tukda=tukda),
+tukda_composer = autogen.ConversableAgent(
+    name="tukda_composer",
+    llm_config=llm_config,
+    description="This is a composer agent that generates Kathak Tukda compositions.",
+    system_message="""Tukda Composer. You compose Kathak Tukdas only and nothing else.
+    Only generate tukdas with 17 or 33 segments. Each segments is separated by a pipe (|).
+    Some examples of Kathak Tukdas: {tukda}
+    Take the feedback of the critic and make changes if needed.""".format(
+        tukda=tukda
+    ),
 )
 
-chakkardar_composer = autogen.AssistantAgent(
-    name = "ChakkardarComp",
-    llm_config = llm_config,
-    system_message = """Chakkardar Composer. You compose Kathak Chakkardar Tukdas only and nothing else. Each beat must be separated by a pipe (|).
-    Some examples of Kathak compositions: {chakkardar}
-    Take the feedback of the critic and make changes if needed. Respond to the critic.""".format(chakkardar=chakkardar),
+chakkardar_composer = autogen.ConversableAgent(
+    name="ChakkardarComp",
+    llm_config=llm_config,
+    description="This is a composer agent that generates Kathak Chakkardar compositions.",
+    system_message="""Chakkardar Composer. You compose Kathak Chakkardar Tukdas only and nothing else. Each segments is separated by a pipe (|).
+    Some examples of Chakkardar compositions: {chakkardar}
+    Take the feedback of the critic and make changes if needed.""".format(
+        chakkardar=chakkardar
+    ),
 )
 
-samsesam_composer = autogen.AssistantAgent(
-    name = "SamSeSamComp",
-    llm_config = llm_config,
-    system_message = """Chakkardar Composer. You compose Kathak SamSeSam Tukdas only and nothing else. Each beat must be separated by a pipe (|).
-    Some examples of Kathak compositions: {samse}""".format(samse=samse),
+samsesam_composer = autogen.ConversableAgent(
+    name="SamSeSamComp",
+    llm_config=llm_config,
+    description="This is a composer agent that generates Kathak Sam Se Sam compositions.",
+    system_message="""Chakkardar Composer. You compose Kathak Chakkardar Tukdas only and nothing else. Each segments is a segment, and each segment is separated by a pipe symbol (|). Each segment contains bols. 
+    Some examples of Kathak compositions: {samse}
+    Take the feedback of the critic and make changes if needed.""".format(
+        samse=samse
+    ),
 )
 
-critic = autogen.AssistantAgent(
-    name = "Critic",
-    llm_config = llm_config,
-    system_message = """Critic. You check the compositions of the composer and provide feedback immediately. You cannot generate compositions.
-    Some rules to be followed are {rules}""".format(rules=rules),
+critic = autogen.ConversableAgent(
+    name="Rule Checker",
+    llm_config=llm_config,
+    description="This is a critic agent that checks the rules of the Kathak compositions.",
+    system_message="""Here are some rules: {rules}
+    Check the Kathak compositions generated by the composer. Do not directly trust the composer, verify the compositions.
+    Ensure that the compositions follow the rules of Kathak dance.Do not generate compositions. ONLY IF the composition is correct, end message with "APPROVED" else provide feedback to the composer.
+    """.format(
+        rules=rules
+    ),
+    is_termination_msg=lambda x: "APPROVED" in x["content"] if x["content"] else False,
+)
+
+segments_counter = autogen.ConversableAgent(
+    name="Segments Counter",
+    llm_config=llm_config,
+    description="This is a critic agent that checks the number of segmentss in the Kathak compositions.",
+    system_message="""Check the Kathak compositions generated by the composer and count the number of segmentss in the composition.
+    Do not generate compositions. Provide feedback to the critic directly.""",
 )
 
 group_chat = autogen.GroupChat(
-    agents = [user_proxy, tihai_composer, critic], messages = [], max_round=5, speaker_selection_method="round_robin"
+    agents=[chakkardar_composer, critic, user_proxy],
+    messages=[],
+    max_round=8,
+    speaker_selection_method="round_robin",
 )
 
-manager = autogen.GroupChatManager(
-    groupchat = group_chat, llm_config = llm_config
-    )
+manager = autogen.GroupChatManager(groupchat=group_chat, llm_config=llm_config)
 
-user_proxy.initiate_chat(
-    manager,
-    message = """Generate a Tihai."""
+if __name__ == "__main__":
+    user_proxy.initiate_chat(
+        manager,
+        message="""
+            Compose a Kathak Chakkardar Tukda starting with tig dha.
+        """,
     )
-
