@@ -10,7 +10,7 @@ def get_model():
     return model
 
 
-SEGMENT_SEP = "\n"
+SEGMENT_SEP = "\n\n"
 BOL_SEP = " | "
 
 MAPPING = {
@@ -50,8 +50,12 @@ class Composition(BaseModel):
     """
     A Kathak composition which can be defined as a collection of bols.
     Groups of bols are segments. Each segment is separated by a newline (\n).
+    If there are no newlines (\n), treat the entire composition as a single
+    segment.
     A segment is a list of bols.
     Bols are separated by pipes (|). Each bol is a string.
+    Each bol consists of words that are separated by spaces.
+    A bol usually contains multiple words.
     """
 
     segments: List[List[str]] = Field(

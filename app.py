@@ -21,15 +21,17 @@ def generate():
             and composition.is_valid()
         ):
             print(composition)
-            st.session_state.composition = (
-                str(composition) + "\n\n" + str(composition.transliterated())
-            )
+            st.session_state.composition_latin = str(composition)
+            st.session_state.composition_devanagari = str(composition.transliterated())
             break
         print("Invalid", composition)
         continue
 
 
-st.session_state.composition = st.session_state.get("composition", "")
+st.session_state.composition_latin = st.session_state.get("composition_latin", "")
+st.session_state.composition_devanagari = st.session_state.get(
+    "composition_devanagari", ""
+)
 
 st.title("Nritya Nirman")
 COMPOSITION_TYPES = ["Tihai", "Tukda", "Chakkardar", "Sam-se-sam"]
@@ -52,4 +54,5 @@ st.button(
     on_click=lambda: generate(),
 )
 
-st.write(st.session_state.composition)
+# st.write(st.session_state.composition_latin)
+st.write(st.session_state.composition_devanagari)
