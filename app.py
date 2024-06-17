@@ -3,10 +3,15 @@ from project import user_proxy, manager
 from composition_parser import get_composition_parser, Composition
 
 
-def generate(composition_type: str):
-    chat_result = user_proxy.initiate_chat(
-        manager, message=f"Generate a {composition_type}"
-    )
+def generate():
+    composition_type = st.session_state.get("composition_type")
+    if not composition_type:
+        return
+    description = st.session_state.get("description")
+    message = f"Generate a {composition_type}."
+    if description:
+        message += f"\n{description}"
+    chat_result = user_proxy.initiate_chat(manager, message=message)
     parser = get_composition_parser()
     for message in chat_result.chat_history[::-1]:
         composition = parser.invoke(message["content"])
@@ -23,7 +28,7 @@ def generate(composition_type: str):
 
 
 st.session_state.composition = st.session_state.get("composition", "")
-st.session_state.composition_type = st.session_state.get("composition_type", None)
+
 st.title("Nritya Nirman")
 COMPOSITION_TYPES = ["Tihai", "Tukda", "Chakkardar", "Sam-se-sam"]
 
@@ -38,9 +43,11 @@ st.selectbox(
     options=COMPOSITION_TYPES,
 )
 
+st.text_area("Description", key="description")
+
 st.button(
     "Generate Composition",
-    on_click=lambda: generate(st.session_state.composition_type),
+    on_click=lambda: generate(),
 )
 
 st.write(st.session_state.composition)
