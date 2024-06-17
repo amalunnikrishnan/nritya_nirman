@@ -1,12 +1,11 @@
 import streamlit as st
-from project import user_proxy, manager
-from composition_parser import get_composition_parser, Composition
+from project import CompositionType, generate_composition
 
 COMPOSITION_TYPES = {
-    "तिहाई": "Tihai",
-    "टुकड़ा": "Tukda",
-    "चक्करदार टुकड़ा": "Chakkardar",
-    "सम-से-सम टुकड़ा": "Sam-se-sam",
+    "तिहाई": CompositionType.TIHAI,
+    "टुकड़ा": CompositionType.TUKDA,
+    "चक्करदार टुकड़ा": CompositionType.CHAKKARDAR,
+    "सम-से-सम टुकड़ा": CompositionType.SAM_SE_SAM,
 }
 
 
@@ -14,29 +13,14 @@ def generate():
     composition_type = COMPOSITION_TYPES.get(st.session_state.get("composition_type"))
     if not composition_type:
         return
-    description = st.session_state.get("description")
-    message = f"Generate a {composition_type}."
-    if description:
-        message += f" {description}"
-    chat_result = user_proxy.initiate_chat(manager, message=message)
-    parser = get_composition_parser()
     st.session_state.composition_latin = st.session_state.get("composition_latin", "")
     st.session_state.composition_devanagari = st.session_state.get(
         "composition_devanagari", ""
     )
-    for message in chat_result.chat_history[::-1]:
-        composition = parser.invoke(message["content"])
-        if (
-            composition
-            and isinstance(composition, Composition)
-            and composition.is_valid()
-        ):
-            print(composition)
-            st.session_state.composition_latin = str(composition)
-            st.session_state.composition_devanagari = str(composition.transliterated())
-            break
-        print("Invalid", composition)
-        continue
+    composition = generate_composition(composition_type=composition_type)
+    if composition:
+        st.session_state.composition_latin = str(composition)
+        st.session_state.composition_devanagari = str(composition.transliterated())
 
 
 st.session_state.composition_latin = st.session_state.get("composition_latin", "")

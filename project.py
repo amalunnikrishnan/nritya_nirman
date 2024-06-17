@@ -1,4 +1,6 @@
 import autogen
+from enum import Enum
+from composition_parser import Composition, get_composition_parser
 
 config_list = autogen.config_list_from_json("GROQ_CONFIG_LIST.json")
 
@@ -92,19 +94,64 @@ segments_counter = autogen.ConversableAgent(
     Do not generate compositions. Provide feedback to the critic directly.""",
 )
 
-group_chat = autogen.GroupChat(
-    agents=[chakkardar_composer, critic, user_proxy],
-    messages=[],
-    max_round=8,
-    speaker_selection_method="round_robin",
-)
 
-manager = autogen.GroupChatManager(groupchat=group_chat, llm_config=llm_config)
+class CompositionType(str, Enum):
+    TIHAI = "tihai"
+    TUKDA = "tukda"
+    CHAKKARDAR = "chakkardar"
+    SAM_SE_SAM = "sam-se-sam"
+
+
+def get_composer(composition_type: CompositionType):
+    composition_type = CompositionType(composition_type)
+    return {
+        CompositionType.TIHAI: tihai_composer,
+        CompositionType.TUKDA: tukda_composer,
+        CompositionType.CHAKKARDAR: chakkardar_composer,
+        CompositionType.SAM_SE_SAM: samsesam_composer,
+    }[composition_type]
+
+
+def composition_from_chat_history(chat_result: autogen.ChatResult):
+    found_approval = False
+    parser = get_composition_parser()
+    for message in chat_result.chat_history[::-1]:
+        if "APPROVED" in message["content"]:
+            found_approval = True
+            continue
+        if not found_approval:
+            continue
+        composition = parser.invoke(message["content"])
+        if (
+            composition
+            and isinstance(composition, Composition)
+            and composition.is_valid()
+        ):
+            return composition
+
+
+def generate_composition(composition_type: CompositionType):
+    composition_type = CompositionType(composition_type)
+    composer = get_composer(composition_type=composition_type)
+    group_chat = autogen.GroupChat(
+        agents=[composer, critic, user_proxy],
+        messages=[],
+        max_round=8,
+        speaker_selection_method="round_robin",
+    )
+    manager = autogen.GroupChatManager(groupchat=group_chat, llm_config=llm_config)
+    initial_message = {
+        CompositionType.TIHAI: "Compose a Kathak Tihai",
+        CompositionType.TUKDA: "Compose a Kathak Tukda",
+        CompositionType.CHAKKARDAR: "Compose a Kathak Chakkardar Tukda",
+        CompositionType.SAM_SE_SAM: "Compose a Kathak Sam-se-sam Tukda",
+    }[composition_type]
+    chat_result = user_proxy.initiate_chat(
+        manager,
+        message=initial_message,
+    )
+    return composition_from_chat_history(chat_result=chat_result)
+
 
 if __name__ == "__main__":
-    user_proxy.initiate_chat(
-        manager,
-        message="""
-            Compose a Kathak Chakkardar Tukda starting with tig dha.
-        """,
-    )
+    generate_composition(CompositionType.TIHAI)
