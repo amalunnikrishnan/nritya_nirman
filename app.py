@@ -4,9 +4,9 @@ from composition_parser import get_composition_parser, Composition
 
 COMPOSITION_TYPES = {
     "तिहाई": "Tihai",
-    "तुकड़ा": "Tukda",
-    "चक्करदार": "Chakkardar",
-    "सम-से-सम": "Sam-se-sam",
+    "टुकड़ा": "Tukda",
+    "चक्करदार टुकड़ा": "Chakkardar",
+    "सम-से-सम टुकड़ा": "Sam-se-sam",
 }
 
 
@@ -44,14 +44,20 @@ st.session_state.composition_devanagari = st.session_state.get(
     "composition_devanagari", ""
 )
 
-st.title("नृत्य निर्माण")
+sidebar, main = st.columns([1, 1])
+
+sidebar.image(
+    "https://media.canva.com/v2/image-resize/format:PNG/height:2400/quality:100/uri:s3%3A%2F%2Fmedia-private.canva.com%2FeepwA%2FMAGIZteepwA%2F1%2Fp.png/watermark:F/width:1582?csig=AAAAAAAAAAAAAAAAAAAAAA41I39rgY0rAJnAC5CRbGB5BCrHUxiZ94SbNFmflq4t&exp=1718662812&osig=AAAAAAAAAAAAAAAAAAAAAF4DTY66za7iraI2xMlWyl6r1GA66J5tzgH0Vr6Dq393&signer=media-rpc&x-canva-quality=screen_3x",
+    width=200,
+)
+sidebar.title("नृत्य निर्माण")
 
 
 def select_composition_type(index: int):
     st.session_state.composition_type = index
 
 
-st.selectbox(
+sidebar.selectbox(
     "Composition type",
     key="composition_type",
     options=COMPOSITION_TYPES.keys(),
@@ -59,10 +65,10 @@ st.selectbox(
 
 # st.text_area("Description", key="description")
 
-st.button(
+sidebar.button(
     "Generate Composition",
     on_click=lambda: generate(),
 )
 
 # st.write(st.session_state.composition_latin)
-st.write(st.session_state.composition_devanagari)
+main.write(st.session_state.composition_devanagari)
