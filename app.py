@@ -21,7 +21,9 @@ def generate():
             and composition.is_valid()
         ):
             print(composition)
-            st.session_state.composition = str(composition)
+            st.session_state.composition = (
+                str(composition) + "\n\n" + str(composition.transliterated())
+            )
             break
         print("Invalid", composition)
         continue

@@ -4,6 +4,48 @@ from langchain_core.pydantic_v1 import BaseModel, Field, validator
 from langchain_groq import ChatGroq
 
 
+def get_model():
+    config = json.load(open("./GROQ_CONFIG_LIST.json"))[0]
+    model = ChatGroq(api_key=config["api_key"], model=config["model"])
+    return model
+
+
+SEGMENT_SEP = "\n"
+BOL_SEP = " | "
+
+MAPPING = {
+    "a": "अ",
+    "aa": "आ",
+    "da": "दा",
+    "dha": "धा",
+    "dhi": "धि",
+    "dhin": "धिन",
+    "di": "दि",
+    "dig": "दिग",
+    "ga": "गा",
+    "ge": "गे",
+    "ghi": "घि",
+    "hta": "हता",
+    "ka": "का",
+    "kat": "कत",
+    "kdan": "कदन",
+    "ki": "कि",
+    "na": "ना",
+    "nga": "ंगा",
+    "ra": "रा",
+    "ta": "ता",
+    "tat": "तत",
+    "tha": "था",
+    "thei": "थई",
+    "thu": "थु",
+    "thun": "थुन",
+    "ti": "ति",
+    "tig": "तिग",
+    "tram": "त्रम",
+    "tta": "त्ता",
+}
+
+
 class Composition(BaseModel):
     """
     A Kathak composition which can be defined as a collection of bols.
@@ -46,13 +88,24 @@ class Composition(BaseModel):
         )
 
     def stitched(self):
-        return "\n\n".join([" | ".join(segment) for segment in self.segments])
+        return SEGMENT_SEP.join([BOL_SEP.join(segment) for segment in self.segments])
 
     def __str__(self) -> str:
         return self.stitched()
 
+    @staticmethod
+    def _transliterate_bol(bol: str):
+        return " ".join([MAPPING.get(word, word) for word in bol.split() if word])
+
+    def transliterated(self) -> "Composition":
+        return self.__class__(
+            segments=[
+                [self.__class__._transliterate_bol(bol) for bol in segment]
+                for segment in self.segments
+            ]
+        )
+
 
 def get_composition_parser():
-    config = json.load(open("./GROQ_CONFIG_LIST.json"))[0]
-    model = ChatGroq(api_key=config["api_key"], model=config["model"])
+    model = get_model()
     return model.with_structured_output(Composition)
