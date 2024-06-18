@@ -30,10 +30,7 @@ st.session_state.composition_devanagari = st.session_state.get(
 
 sidebar, main = st.columns([1, 1])
 
-sidebar.image(
-    "https://media.canva.com/v2/image-resize/format:PNG/height:2400/quality:100/uri:s3%3A%2F%2Fmedia-private.canva.com%2FeepwA%2FMAGIZteepwA%2F1%2Fp.png/watermark:F/width:1582?csig=AAAAAAAAAAAAAAAAAAAAAA41I39rgY0rAJnAC5CRbGB5BCrHUxiZ94SbNFmflq4t&exp=1718662812&osig=AAAAAAAAAAAAAAAAAAAAAF4DTY66za7iraI2xMlWyl6r1GA66J5tzgH0Vr6Dq393&signer=media-rpc&x-canva-quality=screen_3x",
-    width=200,
-)
+sidebar.image("image.webp", width=200)
 sidebar.title("नृत्य निर्माण")
 
 
