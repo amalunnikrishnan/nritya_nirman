@@ -1,7 +1,24 @@
-MOST IMPORTANT: FIRSTLY COUNT THE NUMBER OF SEGMENTS.Each composition must strictly contain 17, 33, 49 or 65 segments. Else, ask for re-composition.
-Each compostion must have a variety of bols (words), and not the same two or three bols. 
-It is okay to also include pauses ('-') in the composition (only if needed). 
-A segment with just pauses ('-') must not contain more than one pause. 
-Tihais and Chakkardar usually ends with bols such as 'dha', 'thei', 'tha'. They consist of a set of patterns repeated three times.
-Tukdas usually end with bols such as 'dha', 'thei', 'tha', etc.
-As you can see, Sam se sam Tukdas have exactly 17 beats, no more, no less.
+1. Counting Segments:
+   - Have you counted the number of segments separated by "|" symbols?
+
+2. Number of Segments:
+   - Does each composition strictly contain 17, 33, 49, or 65 segments? If not, ask for recomposition
+
+3. Variety of Bols:
+   - Does the composition have a variety of bols (words) and not just the same two or three bols?
+
+4. Inclusion of Pauses:
+   - Are pauses ('-') included in the composition only if needed?
+
+5. Pauses in Segments:
+   - Does any segment with pauses ('-') contain more than one pause?
+
+6. Ending Bols:
+   - Do Tihais and Chakkardars end with bols such as 'dha', 'thei', or 'tha'?
+   - Are Tihais and Chakkardars composed of patterns repeated three times?
+
+7. Tukdas Ending:
+   - Do Tukdas end with bols such as 'dha', 'thei', 'tha', etc.?
+
+8. Sam Se Sam Tukdas:
+   - Do Sam se sam Tukdas have exactly 17 beats, no more, no less?

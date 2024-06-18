@@ -1,18 +1,18 @@
 Composition:  tat tat | thei | tig da dig dig | thei | tha thei | tat aa thei | aa thei | tat aa thei | thei tha thei | s tha thei | thei thei | tat tat | tha tat | s tha dha | tat tha dha | s tat tha | dha
-Description: This is an example of a SamSeSam kathak composition. It has 17 segments. Each segment is separated by a | symbol. As you can see, Sam se sam Tukdas have exactly 17 beats, no more, no less. 
+Description: This is an example of a SamSeSam kathak composition. It has strictly 17 segments. Each segment is separated by a | symbol. As you can see, Sam se sam Tukdas have exactly strictly 17 beats, no more, no less. 
 
 Composition:  tha | thei | tat aa | thei | aa | thei | tat aa | thei | tig da dig dig | thei tram | thei | tig da dig dig | thei tram | thei | tig da dig dig | thei tram | thei
-Description: This is an example of a SamSeSam kathak composition. It has 17 segments. Each segment is separated by a | symbol. As you can see, Sam se sam Tukdas have exactly 17 beats, no more, no less. 
+Description: This is an example of a SamSeSam kathak composition. It has strictly 17 segments. Each segment is separated by a | symbol. As you can see, Sam se sam Tukdas have exactly strictly 17 beats, no more, no less. 
 
 Composition:  tat tat | thei thei | tig da dig dig | thei | tat tat | thei thei | tig da dig dig | thei | tig da dig dig | thei tha | thei | tig da dig dig | thei tha | thei | tig da dig dig | thei tha | thei
-Description: This is an example of a SamSeSam kathak composition. It has 17 segments. Each segment is separated by a | symbol. As you can see, Sam se sam Tukdas have exactly 17 beats, no more, no less. 
+Description: This is an example of a SamSeSam kathak composition. It has strictly 17 segments. Each segment is separated by a | symbol. As you can see, Sam se sam Tukdas have exactly strictly 17 beats, no more, no less. 
 
 Composition:  tat | tat | thei | thei | tig da | dig dig | thei | - | tig da | dig dig | thei | tig da | dig dig | thei | tig da | dig dig | thei
-Description: This is an example of a SamSeSam kathak composition. It has 17 segments. Each segment is separated by a | symbol. As you can see, Sam se sam Tukdas have exactly 17 beats, no more, no less. 
+Description: This is an example of a SamSeSam kathak composition. It has strictly 17 segments. Each segment is separated by a | symbol. As you can see, Sam se sam Tukdas have exactly strictly 17 beats, no more, no less. 
 
 Composition:  tat | tat | tig da | dig dig | tig da | dig dig | tat | tat | thei | s thei | s | kdan | tat tat | tig da dig dig | tig da dig dig | tig da dig dig | thei
-Description: This is an example of a SamSeSam kathak composition. It has 17 segments. Each segment is separated by a | symbol. As you can see, Sam se sam Tukdas have exactly 17 beats, no more, no less. 
+Description: This is an example of a SamSeSam kathak composition. It has strictly 17 segments. Each segment is separated by a | symbol. As you can see, Sam se sam Tukdas have exactly strictly 17 beats, no more, no less. 
 
 Composition:  tig da tig | da thei | thei kdan | dha ka ta | dha | kat kat | - kdan | dha ka ta | dha | kat kat | - kdan | dha ka ta | dha kdan | dha ka ta | dha kdan | dha ka ta | dha
-Description: This is an example of a SamSeSam kathak composition. It has 17 segments. Each segment is separated by a | symbol. As you can see, Sam se sam Tukdas have exactly 17 beats, no more, no less. 
+Description: This is an example of a SamSeSam kathak composition. It has strictly 17 segments. Each segment is separated by a | symbol. As you can see, Sam se sam Tukdas have exactly strictly 17 beats, no more, no less. 
 
