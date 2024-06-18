@@ -30,7 +30,7 @@ st.session_state.composition_devanagari = st.session_state.get(
 
 sidebar, main = st.columns([1, 1])
 
-sidebar.image("image.webp", width=200)
+sidebar.image("outline.png", width=200)
 sidebar.title("नृत्य निर्माण")
 
 
