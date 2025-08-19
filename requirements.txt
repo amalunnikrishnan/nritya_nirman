@@ -32,15 +32,15 @@ charset-normalizer==3.3.2
 click==8.1.7
     # via streamlit
 diskcache==5.6.3
-    # via pyautogen
+    # via ag2
 distro==1.9.0
     # via
     #   groq
     #   openai
 docker==7.1.0
-    # via pyautogen
+    # via ag2
 flaml==2.1.2
-    # via pyautogen
+    # via ag2
 frozenlist==1.4.1
     # via
     #   aiohttp
@@ -109,18 +109,18 @@ numpy==1.26.4
     #   langchain
     #   pandas
     #   pyarrow
-    #   pyautogen
+    #   ag2
     #   pydeck
     #   streamlit
 openai==1.34.0
-    # via pyautogen
+    # via ag2
 orjson==3.10.5
     # via langsmith
 packaging==24.1
     # via
     #   altair
     #   langchain-core
-    #   pyautogen
+    #   ag2
     #   streamlit
 pandas==2.2.2
     # via
@@ -132,7 +132,7 @@ protobuf==4.25.3
     # via streamlit
 pyarrow==16.1.0
     # via streamlit
-pyautogen==0.2.29
+ag2==0.2.29
     # via -r requirements.in
 pydantic==2.7.4
     # via
@@ -141,7 +141,7 @@ pydantic==2.7.4
     #   langchain-core
     #   langsmith
     #   openai
-    #   pyautogen
+    #   ag2
 pydantic-core==2.18.4
     # via pydantic
 pydeck==0.9.1
@@ -151,7 +151,7 @@ pygments==2.18.0
 python-dateutil==2.9.0.post0
     # via pandas
 python-dotenv==1.0.1
-    # via pyautogen
+    # via ag2
 pytz==2024.1
     # via pandas
 pyyaml==6.0.1
@@ -197,9 +197,9 @@ tenacity==8.4.1
     #   langchain-core
     #   streamlit
 termcolor==2.4.0
-    # via pyautogen
+    # via ag2
 tiktoken==0.7.0
-    # via pyautogen
+    # via ag2
 toml==0.10.2
     # via streamlit
 toolz==0.12.1
